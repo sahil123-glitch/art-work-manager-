@@ -158,7 +158,7 @@ export function ArtworkTable() {
         <Column selectionMode="multiple" headerStyle={{ width: '3rem' }} />
         <Column field="title" header="Title" sortable />
         <Column field="place_of_origin" header="Place of Origin" sortable />
-        <Column field="artist_display" header="Artist" />
+        <Column field="artist_display" header="Artist" bodyStyle={{ cursor: 'default' }} />
         <Column field="inscriptions" header="Inscriptions" />
         <Column field="date_start" header="Start Date" sortable />
         <Column field="date_end" header="End Date" sortable />
